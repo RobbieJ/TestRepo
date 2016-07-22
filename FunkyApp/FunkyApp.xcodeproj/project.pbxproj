@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33869DF21D421F3000342F9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33869DF11D421F3000342F9C /* AppDelegate.swift */; };
+		33869DF41D421F3000342F9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33869DF31D421F3000342F9C /* ViewController.swift */; };
+		33869DF71D421F3000342F9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33869DF51D421F3000342F9C /* Main.storyboard */; };
+		33869DF91D421F3000342F9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33869DF81D421F3000342F9C /* Assets.xcassets */; };
+		33869DFC1D421F3000342F9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33869DFA1D421F3000342F9C /* LaunchScreen.storyboard */; };
+		33869E071D421F3100342F9C /* FunkyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33869E061D421F3100342F9C /* FunkyAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33869E031D421F3100342F9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33869DE61D421F3000342F9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33869DED1D421F3000342F9C;
+			remoteInfo = FunkyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33869DEE1D421F3000342F9C /* FunkyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunkyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33869DF11D421F3000342F9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33869DF31D421F3000342F9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33869DF61D421F3000342F9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33869DF81D421F3000342F9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33869DFB1D421F3000342F9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33869DFD1D421F3000342F9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33869E021D421F3000342F9C /* FunkyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunkyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33869E061D421F3100342F9C /* FunkyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunkyAppTests.swift; sourceTree = "<group>"; };
+		33869E081D421F3100342F9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33869DEB1D421F3000342F9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33869DFF1D421F3000342F9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33869DE51D421F3000342F9C = {
+			isa = PBXGroup;
+			children = (
+				33869DF01D421F3000342F9C /* FunkyApp */,
+				33869E051D421F3100342F9C /* FunkyAppTests */,
+				33869DEF1D421F3000342F9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33869DEF1D421F3000342F9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33869DEE1D421F3000342F9C /* FunkyApp.app */,
+				33869E021D421F3000342F9C /* FunkyAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33869DF01D421F3000342F9C /* FunkyApp */ = {
+			isa = PBXGroup;
+			children = (
+				33869DF11D421F3000342F9C /* AppDelegate.swift */,
+				33869DF31D421F3000342F9C /* ViewController.swift */,
+				33869DF51D421F3000342F9C /* Main.storyboard */,
+				33869DF81D421F3000342F9C /* Assets.xcassets */,
+				33869DFA1D421F3000342F9C /* LaunchScreen.storyboard */,
+				33869DFD1D421F3000342F9C /* Info.plist */,
+			);
+			path = FunkyApp;
+			sourceTree = "<group>";
+		};
+		33869E051D421F3100342F9C /* FunkyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				33869E061D421F3100342F9C /* FunkyAppTests.swift */,
+				33869E081D421F3100342F9C /* Info.plist */,
+			);
+			path = FunkyAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33869DED1D421F3000342F9C /* FunkyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33869E0B1D421F3100342F9C /* Build configuration list for PBXNativeTarget "FunkyApp" */;
+			buildPhases = (
+				33869DEA1D421F3000342F9C /* Sources */,
+				33869DEB1D421F3000342F9C /* Frameworks */,
+				33869DEC1D421F3000342F9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunkyApp;
+			productName = FunkyApp;
+			productReference = 33869DEE1D421F3000342F9C /* FunkyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33869E011D421F3000342F9C /* FunkyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33869E0E1D421F3100342F9C /* Build configuration list for PBXNativeTarget "FunkyAppTests" */;
+			buildPhases = (
+				33869DFE1D421F3000342F9C /* Sources */,
+				33869DFF1D421F3000342F9C /* Frameworks */,
+				33869E001D421F3000342F9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33869E041D421F3100342F9C /* PBXTargetDependency */,
+			);
+			name = FunkyAppTests;
+			productName = FunkyAppTests;
+			productReference = 33869E021D421F3000342F9C /* FunkyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33869DE61D421F3000342F9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Paul Nothard";
+				TargetAttributes = {
+					33869DED1D421F3000342F9C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Z7W6A4GTV8;
+					};
+					33869E011D421F3000342F9C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 33869DED1D421F3000342F9C;
+					};
+				};
+			};
+			buildConfigurationList = 33869DE91D421F3000342F9C /* Build configuration list for PBXProject "FunkyApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33869DE51D421F3000342F9C;
+			productRefGroup = 33869DEF1D421F3000342F9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33869DED1D421F3000342F9C /* FunkyApp */,
+				33869E011D421F3000342F9C /* FunkyAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33869DEC1D421F3000342F9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33869DFC1D421F3000342F9C /* LaunchScreen.storyboard in Resources */,
+				33869DF91D421F3000342F9C /* Assets.xcassets in Resources */,
+				33869DF71D421F3000342F9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33869E001D421F3000342F9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33869DEA1D421F3000342F9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33869DF41D421F3000342F9C /* ViewController.swift in Sources */,
+				33869DF21D421F3000342F9C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33869DFE1D421F3000342F9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33869E071D421F3100342F9C /* FunkyAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33869E041D421F3100342F9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33869DED1D421F3000342F9C /* FunkyApp */;
+			targetProxy = 33869E031D421F3100342F9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33869DF51D421F3000342F9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33869DF61D421F3000342F9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33869DFA1D421F3000342F9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33869DFB1D421F3000342F9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33869E091D421F3100342F9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33869E0A1D421F3100342F9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33869E0C1D421F3100342F9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FunkyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vmware.com.FunkyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		33869E0D1D421F3100342F9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FunkyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vmware.com.FunkyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		33869E0F1D421F3100342F9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FunkyAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vmware.com.FunkyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunkyApp.app/FunkyApp";
+			};
+			name = Debug;
+		};
+		33869E101D421F3100342F9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FunkyAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vmware.com.FunkyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunkyApp.app/FunkyApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33869DE91D421F3000342F9C /* Build configuration list for PBXProject "FunkyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33869E091D421F3100342F9C /* Debug */,
+				33869E0A1D421F3100342F9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33869E0B1D421F3100342F9C /* Build configuration list for PBXNativeTarget "FunkyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33869E0C1D421F3100342F9C /* Debug */,
+				33869E0D1D421F3100342F9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33869E0E1D421F3100342F9C /* Build configuration list for PBXNativeTarget "FunkyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33869E0F1D421F3100342F9C /* Debug */,
+				33869E101D421F3100342F9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33869DE61D421F3000342F9C /* Project object */;
+}
